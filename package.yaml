@@ -17,6 +17,7 @@ license-file:        LICENSE
 
 extra-source-files:
   - README.md
+  - CHANGELOG.md
 
 library:
   source-dirs: src
