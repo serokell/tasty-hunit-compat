@@ -19,8 +19,15 @@ extra-source-files:
   - README.md
   - CHANGELOG.md
 
+ghc-options:
+  - -Wall
+  - -Wincomplete-record-updates
+
 library:
   source-dirs: src
+
+  ghc-options:
+    - -Wincomplete-uni-patterns
 
   dependencies:
     - base >= 4.7 && < 5

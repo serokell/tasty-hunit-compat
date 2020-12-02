@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4bbefacfe6a6da4dac6a2149bfe9f7af9bbe522d86169a436f7b92eb6f940023
+-- hash: f6e3d0fadd3de7f69b21a4e939be2344dbe7a68595c7c47c845f3d2ef8fa155b
 
 name:           tasty-hunit-compat
 version:        0.2
@@ -34,6 +34,7 @@ library
       Paths_tasty_hunit_compat
   hs-source-dirs:
       src
+  ghc-options: -Wall -Wincomplete-record-updates -Wincomplete-uni-patterns
   build-depends:
       HUnit
     , base >=4.7 && <5
