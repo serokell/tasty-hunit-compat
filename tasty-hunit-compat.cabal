@@ -34,7 +34,7 @@ library
     -Wincomplete-uni-patterns
   build-depends:
       base >=4.7 && <5
-    , HUnit
-    , tasty
-    , tasty-hunit
+    , HUnit <1.7
+    , tasty <1.5
+    , tasty-hunit <0.11
   default-language: Haskell2010
