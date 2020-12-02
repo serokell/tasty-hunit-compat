@@ -1,15 +1,18 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
+--
+-- hash: 4bbefacfe6a6da4dac6a2149bfe9f7af9bbe522d86169a436f7b92eb6f940023
 
 name:           tasty-hunit-compat
 version:        0.2
 synopsis:       Tasty integration with the existing HUnit package.
 description:    Existing `tasty-hunit` package now declares its own testing primitives. This package provides an integration of the existing HUnit package with Tasty that inter-operates properly with other HUnit code.
 category:       Testing
-homepage:       https://gitlab.com/morley-framework/morley
+homepage:       https://github.com/serokell/tasty-hunit-compat#readme
+bug-reports:    https://github.com/serokell/tasty-hunit-compat/issues
 author:         Serokell, Tocqueville Group
 maintainer:     Serokell <hi@serokell.io>
 copyright:      2020 Tocqueville Group
@@ -18,10 +21,11 @@ license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
+    CHANGELOG.md
 
 source-repository head
   type: git
-  location: git@gitlab.com:morley-framework/morley.git
+  location: https://github.com/serokell/tasty-hunit-compat
 
 library
   exposed-modules:
