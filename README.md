@@ -2,6 +2,8 @@
 
 ![Build status](https://github.com/serokell/tasty-hunit-compat/workflows/CI/badge.svg)
 
+:shrug:
+
 This library implements the integration between [tasty](https://hackage.haskell.org/package/tasty) and [HUnit](https://hackage.haskell.org/package/HUnit) packages.
 
 The way tasty provides this integration is reimplementing HUnit primitives, and this does not work with test suites written with the original HUnit library.
