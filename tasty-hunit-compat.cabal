@@ -1,11 +1,4 @@
-cabal-version: 1.12
-
--- This file has been generated from package.yaml by hpack version 0.33.0.
---
--- see: https://github.com/sol/hpack
---
--- hash: 57e2bf4d1e8058d57df15fe1e8a2c9c7f8d7e93985b9ff752ba852c809380b0c
-
+cabal-version:  2.0
 name:           tasty-hunit-compat
 version:        0.2
 synopsis:       Tasty integration with the existing HUnit package.
@@ -13,7 +6,7 @@ description:    Existing `tasty-hunit` package now declares its own testing prim
 category:       Testing
 homepage:       https://github.com/serokell/tasty-hunit-compat#readme
 bug-reports:    https://github.com/serokell/tasty-hunit-compat/issues
-author:         Serokell, Tocqueville Group
+author:         Serokell
 maintainer:     Serokell <hi@serokell.io>
 copyright:      2020 Tocqueville Group
 license:        MPL-2.0
@@ -36,8 +29,8 @@ library
       src
   ghc-options: -Wall -Wincomplete-record-updates -Wincomplete-uni-patterns
   build-depends:
-      HUnit <1.7
-    , base >=4.7 && <5
+      base >=4.7 && <5
+    , HUnit <1.7
     , tasty <1.5
     , tasty-hunit <0.11
   default-language: Haskell2010
