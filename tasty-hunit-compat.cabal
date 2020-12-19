@@ -26,6 +26,8 @@ library
       Test.Tasty.HUnit
   other-modules:
       Paths_tasty_hunit_compat
+  autogen-modules:
+      Paths_tasty_hunit_compat
   hs-source-dirs:
       src
   ghc-options:
