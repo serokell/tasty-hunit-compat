@@ -1,6 +1,6 @@
 cabal-version:  2.0
 name:           tasty-hunit-compat
-version:        0.2
+version:        0.2.0.1
 synopsis:       Integration of `HUnit` with `tasty`.
 description:    Implements the proper integration between existing `HUnit` package and `tasty` framework.
                 The existing solution in `tasty` defines its own primitives that are not compatible with `HUnit`.
@@ -25,6 +25,8 @@ library
   exposed-modules:
       Test.Tasty.HUnit
   other-modules:
+      Paths_tasty_hunit_compat
+  autogen-modules:
       Paths_tasty_hunit_compat
   hs-source-dirs:
       src
