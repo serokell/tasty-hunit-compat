@@ -42,4 +42,4 @@ Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more information.
 `tasty-hunit-compat` is maintained and funded with ❤️ by [Serokell](https://serokell.io/).
 The names and logo for Serokell are trademark of Serokell OÜ.
 
-We love open source software! See [our other projects](https://serokell.io/community?utm_source=github) or [hire us](https://serokell.io/hire-us?utm_source=github) to design, develop and grow your idea!
+We love open source software! See [our other projects](https://serokell.io/community?utm_source=github) or [hire us](https://serokell.io/contacts?utm_source=github) to design, develop and grow your idea!
